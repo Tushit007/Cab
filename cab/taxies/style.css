@@ -1,0 +1,67 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-color: #141414;
+
+  }
+  
+  header {
+    background-color: #000000;
+    color: #cfc4c4;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 5px;
+    
+  }
+  h1{
+    font-family: "Questrial";
+    text-transform:uppercase;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    background-color: #000000;
+    border-radius: 2%;
+  }
+  
+  .car {
+    border: 2px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    color: azure;
+    border-radius: 5%;
+    background-color: #ccc;
+    color: #000000;
+  }
+  .car hr{
+   background-color: #666565;
+    height: 2px;
+  }
+  .car img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .car h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .car p {
+    margin: 5px 0;
+    font-family: "Questrial";
+  }
+.logo img{
+    max-width: 30%;
+    height: auto;
+}
+
+
+
